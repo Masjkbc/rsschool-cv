@@ -4,18 +4,115 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>CV</title>
+  <title>Boiko Maksym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <header>
-
+<div class="conteiner-centred">
+<header class="header">
+      <img src="./images/portrait.jpg" alt="portrait" width="204" height="204" class="header_logo">
+      <h1>Boiko Maksym</h1>
+      <h2>Front-end web developer (Beginner)</h2>
   </header>
-  <main>
 
-  </main>
-  <footer>
+   <main class="main">
+    <div class="wrapper">
+    <section class="Contacts">
+      <h3 class="left_block">Contacts</h3>
+      <ul>
+        <li><img src="./images/phone-call.png" alt="Phone icon"> <a href="tel:+380935124449" target="_blank">+380-93-512-44-49</a></li>
+        <li><img src="./images/email.png" alt="Email icon">
+          <a href="mailto:boiko.ma@outlook.com" target="_blank">boiko.ma@outlook.com</a> </li>
+        <li><img src="./images/linkedin.png" alt="LinkedIn icon"><a href="https://www.linkedin.com/in/maksym-boiko-361026140/" target="_blank">LinkedIn</a></li>
+        <li><img src="./images/facebook.png" alt="Facebook icon"><a href="https://www.facebook.com/Masjk.Boyko" target="_blank">Facebook</a></li>
+      </ul>
+    </section>
+<Section class="Skills">
+      <h3 class="left_block">Skills</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Basic knowledge AutoCAD, Kompass</li>
+        <li>MS Office</li>
+        <li>Git</li>
+      </ul>
+</Section>
+<section class="Languages">
+      <h3 class="left_block">Languages</h3>
+      <ul>
+        <li><p class="language-name">Ukraninan</p>
+        <p>Native</p></li>
+      </ul>
+      <ul>
+        <li><p class="language-name">Russian</p>
+        <p>Native</p></li>
+      </ul>
+      <ul>
+        <li><p class="language-name">English</p>
+        <p>Pre-intermediate</p></li>
+      </ul>
+  </section>
+</div>
+<aside class="right-column wrapper_right"> <!-- Спрва сверху начинается колонка-->
+  <section class="About myself">
+  <div class="sub-header">
+      <h3>About myself</h3>
+      <hr class="hrline">
+    </div>
+      <p class="aboutme">My career began as an administrator in a cafe. I wanted to get into IT and started working at the Service Desk.
+        Two years later, I got a job as a business application engineer.
+        Now I want to learn programming.</p>
 
-  </footer>
+  </section>
+  <section class="Education">
+<div class="sub-header">
+    <h3>Education</h3>
+    <hr class="hrline">
+  </div>
+      <p><b>Nation University of Food Technologies</b></p>
+      <p>Master, Applied Mechanics</p>
+      <p>Years: 2013 - 2019</p>
+    </section>
+    <section class="Courses">
+    <div class="sub-header">
+        <h3>Courses</h3>
+        <hr class="hrline">
+    </div>
+    <p><b>BASICS OF WEB UI DEVELOPMENT</b></p>
+    <p>Lviv IT School</p>
+  </section>
+  <section class="Code example">
+    <div class="sub-header">
+        <h3>Code example</h3>
+        <hr class="hrline">
+    </div>
+
+    <div class="code"><pre><code>
+ var square = function(number) { return number * number; }; 
+ var x = square(4); 
+    </code></pre></div>
+  </section>
+</aside>
+    </main>
+        </div>
+
+
+<Footer class="footer">  
+  <div class="footer-conteiner">  
+    <div><img src="./images/github.png" alt="GitHub icon">
+    <a href="https://github.com/Masjkbc/rsschool-cv" target="_blank">Visit to my GitHub</a>
+  </div>
+    <a>2022</a>
+    <a href="https://rs.school/js/" target="_blank">
+      <img src="./images/logo-rs.png" alt="rsschool icon" class="logo-rs">
+    </a>
+
+  </div>
+  </Footer>
+
 </body>
 </html>
